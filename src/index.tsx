@@ -1,10 +1,12 @@
 import React from 'react';
-import { SafeAreaView, StatusBar } from 'react-native';
+import { SafeAreaView, StatusBar, Text } from 'react-native';
 
 const App: React.FC = () => (
   <>
     <StatusBar barStyle="dark-content" />
-    <SafeAreaView />
+    <SafeAreaView>
+      <Text>Hello world</Text>
+    </SafeAreaView>
   </>
 );
 
