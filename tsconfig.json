@@ -17,7 +17,7 @@
     "noImplicitAny": true,
     "jsx": "react",
     "paths": {
-      "@/*": ["src/*"]
+      "@src/*": ["./src/*"]
     }
   }
 }
